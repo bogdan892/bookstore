@@ -82,5 +82,5 @@ test:
 production:
   <<: *default
   database: Bookstore_RG_production
-  username: Bookstore_RG
-  password: <%= ENV['BOOKSTORE_RG_DATABASE_PASSWORD'] %>
+  username: postgres
+  password: postgres
