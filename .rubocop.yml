@@ -1,0 +1,26 @@
+require:
+  - rubocop-rspec
+  - rubocop-rails
+  - rubocop-performance
+
+AllCops:
+  Exclude:
+    - 'config/**/*'
+    - 'db/**/*'
+    - 'bin/**/*'
+    - vendor/bundle/**/*
+    - 'node_modules/**/*'
+
+Metrics/BlockLength:
+  Exclude:
+    - config/**/*
+    - 'spec/**/*'
+    - 'vendor/*'
+    - 'vendor/**/*'
+    - 'node_modules/**/*'
+
+Style/Documentation:
+  Enabled: false
+
+Rails/FilePath:
+  Enabled: false
