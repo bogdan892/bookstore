@@ -22,6 +22,12 @@ gem 'font-awesome-sass', '~> 4.6', '>= 4.6.2'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'rubocop', '~> 1.12', require: false
+  gem 'rubocop-performance', '~> 1.10.2', require: false
+  gem 'rubocop-rails', '~> 2.9.1', require: false
+  gem 'rubocop-rspec', '~> 2.2.0', require: false
+  gem 'pry-rails', '~> 0.3.9'
+  gem 'rspec-rails', '~> 5.0.0'
 end
 
 group :development do
