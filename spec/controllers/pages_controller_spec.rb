@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 RSpec.describe PagesController, type: :controller do
   describe '#index' do
     context 'when success ' do
@@ -13,3 +15,4 @@ RSpec.describe PagesController, type: :controller do
     end
   end
 end
+
