@@ -6,6 +6,7 @@ ruby '2.7.2'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
 gem 'rails', '~> 6.1.4'
 gem 'pg', '~> 1.1'
+gem 'i18n'
 gem 'puma', '~> 5.0'
 gem 'sass-rails', '>= 6'
 gem 'sassc-rails', '>= 2.1.0'
@@ -28,6 +29,8 @@ group :development, :test do
   gem 'rubocop-rspec', '~> 2.2.0', require: false
   gem 'pry-rails', '~> 0.3.9'
   gem 'rspec-rails', '~> 5.0.0'
+  gem 'rails-controller-testing'
+  gem 'simplecov', require: false
 end
 
 group :development do
